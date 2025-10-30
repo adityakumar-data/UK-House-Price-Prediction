@@ -1,51 +1,72 @@
 # UK House Price Prediction (2015–2024)
 
-This project looks at how house prices have changed across the UK from 2015 to 2024.  
-I have cleaned and explored the data, then built a simple Linear Regression model to estimate property prices and understand general price patterns over time.
+This project explores how house prices have changed across the UK from 2015 to 2024.  
+The aim was to understand general market trends, identify regional variations, and build a simple machine learning model to predict property prices based on key factors such as year, property type, and county.
 
 ---
 
 ## Project Overview
 
-The main aim of this project is to study UK house price trends based on property type, county, and year, and to make basic price predictions for the coming years.
+The goal of this project is to analyze UK house price data and make basic predictions for upcoming years.  
+The workflow includes data cleaning, exploratory analysis, visualization, and predictive modeling.
 
-### What I did:
-1. Data Cleaning – removed duplicates and unrealistic price values  
-2. Exploratory Analysis – checked how prices vary by property type, county, and year  
-3. Modeling – trained a Linear Regression model to predict house prices  
-4. Evaluation – tested the model’s accuracy using RMSE and R² metrics  
-5. Prediction Example – the model estimated that a detached house in Greater London (2023) could cost around £462,505
+### What I Did
 
----
-
-## Tools and Libraries Used
-- Python for the overall analysis  
-- Pandas for data handling and cleaning  
-- Matplotlib and Seaborn for data visualization  
-- Scikit-learn for building and evaluating the model  
-- Jupyter Notebook for development and documentation  
+1. **Data Cleaning** – removed duplicate entries and unrealistic price values.  
+2. **Exploratory Data Analysis (EDA)** – studied how prices varied by property type, county, and year.  
+3. **Modeling** – trained a Linear Regression model to estimate house prices.  
+4. **Evaluation** – tested the model’s accuracy using RMSE and R² metrics.  
+5. **Prediction Example** – the model predicted that a detached house in Greater London (2023) could cost around **£462,505**.
 
 ---
 
 ## Results Summary
-- RMSE: approximately £330,000  
-- R² Score: around 0.06 (a basic linear model)  
-- Prices showed a steady rise between 2015 and 2022, with a small dip after 2023  
-- Greater London and Surrey recorded the highest average property prices  
+
+- **RMSE (Root Mean Squared Error):** approximately £330,000  
+- **R² Score:** around 0.06 (a basic linear model)  
+- Prices increased steadily between **2015 and 2022**, followed by a small dip after **2023**.  
+- **Greater London** and **Surrey** recorded the highest average property prices.  
+
+These results highlight clear regional differences in housing markets and demonstrate how simple regression models can be used to estimate average price trends.
+
+---
+
+## Tools and Libraries Used
+
+- **Python** – overall analysis and model development  
+- **Pandas**, **NumPy** – for data handling and preprocessing  
+- **Matplotlib**, **Seaborn** – for trend visualization and plotting  
+- **Scikit-learn** – for building and evaluating the regression model  
+- **Jupyter Notebook** – for documentation and analysis presentation  
 
 ---
 
 ## Future Improvements
-- Add more detailed features such as property size, number of rooms, or latitude/longitude  
-- Experiment with stronger models like Random Forest or Gradient Boosting  
-- Create an interactive dashboard in Power BI or Tableau to visualize trends  
+
+- Include more detailed property-level features (e.g., number of rooms, size, latitude/longitude).  
+- Test stronger algorithms such as **Random Forest** or **Gradient Boosting**.  
+- Develop an interactive **Power BI** or **Tableau dashboard** for visual presentation of trends.  
+- Add external economic indicators like inflation or interest rates to improve predictions.  
 
 ---
 
-## About Me
+## Key Insights
+
+- UK house prices generally rose from 2015 to 2022 before stabilizing.  
+- Detached and semi-detached houses were consistently the most expensive types.  
+- Property prices in **Greater London** and **Surrey** were among the highest in the dataset.  
+- Although the Linear Regression model is basic, it provides a solid starting point for understanding overall price trends.
+
+---
+
+## Author
+
 **Aditya Kumar**  
-MSc Data Science, Coventry University (UK)  
-Email: aaditya131202@gmail.com  
-GitHub: [https://github.com/adityakumar-data](https://github.com/adityakumar-data)
+*MSc Data Science, Coventry University (UK)*  
+📧 Email: [aaditya131202@gmail.com](mailto:aaditya131202@gmail.com)  
+🔗 LinkedIn: [Aditya Kumar](https://www.linkedin.com/in/aditya-kumar-8b60302b5)  
+💻 GitHub: [adityakumar-data](https://github.com/adityakumar-data)
 
+---
 
+> “Data tells the story — we just need to listen carefully.”
